@@ -18,7 +18,7 @@
 
 // grab the dom elements
 const row = document.querySelector(".row");
-console.log(row);
+// console.log(row);
 
 // iterate for each number from 1 to 100
 for (let i = 1; i <= 100; i++) {
@@ -26,7 +26,7 @@ for (let i = 1; i <= 100; i++) {
   let fizz = "Fizz";
   let buzz = "Buzz";
   const cell = document.createElement("div");
-  console.log(cell);
+  //   console.log(cell);
   cell.classList.add("cell");
 
   // if i is a multiple of 3 and 5 then fizzbuzz
@@ -35,23 +35,23 @@ for (let i = 1; i <= 100; i++) {
 
     cell.innerHTML = fizzBuzz;
     row.append(cell);
-    console.log(i, "fizzbuzz");
+    // console.log(i, "fizzbuzz");
   } else if (i % 3 === 0 && !(i % 5 === 0)) {
     // if i is a multiple of 3  but not of 5 then fizz
     cell.classList.add("fizz");
     cell.innerHTML = fizz;
     row.append(cell);
-    console.log(i, "fizz");
+    // console.log(i, "fizz");
   } else if (i % 5 === 0 && !(i % 3 === 0)) {
     // if i is a multiple of 5  but not of 3 then buzz
     cell.classList.add("buzz");
     cell.innerHTML = buzz;
     row.append(cell);
-    console.log(i, "buzz");
+    // console.log(i, "buzz");
   } else {
     // if i is not a multiple of 5 or 3 then i
     cell.innerHTML = i;
     row.append(cell);
-    console.log(i);
+    // console.log(i);
   }
 }
