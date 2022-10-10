@@ -7,7 +7,7 @@ const buzz = "Buzz";
 
 // iterate for each number from 1 to 100
 for (let i = 1; i <= 100; i++) {
-  // create the div cell
+  // create the div
   const cell = document.createElement("div");
   // add the class cell to it
   cell.classList.add("cell");
