@@ -1,5 +1,6 @@
 // grab the dom element in which i'll add the classes according to the case
 const row = document.querySelector(".row");
+// declare the variables for each innerHtml content
 const fizzBuzz = "FizzBuzz";
 const fizz = "Fizz";
 const buzz = "Buzz";
