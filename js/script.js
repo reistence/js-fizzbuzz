@@ -37,4 +37,8 @@ for (let i = 1; i <= 100; i++) {
     row.append(cell);
     console.log(i);
   }
+
+  cell.addEventListener("click", function () {
+    alert(cell.innerHTML);
+  });
 }
